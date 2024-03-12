@@ -1,4 +1,5 @@
 <x-dynamic-component wire:ignore
+    x-data="plyr"
     :component="$getFieldWrapperView()"
     :id="$getId()"
     :label="$getLabel()"
